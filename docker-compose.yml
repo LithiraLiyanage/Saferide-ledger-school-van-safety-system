@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo:7
+    container_name: saferide-ledger-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - saferide_data:/data/db
+volumes:
+  saferide_data:
