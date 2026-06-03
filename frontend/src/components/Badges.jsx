@@ -1,0 +1,1 @@
+import {statusClass,statusLabels} from '../utils/helpers';export const StatusBadge=({status})=><span className={`rounded-full px-3 py-1 text-xs font-black ${statusClass(status)}`}>{statusLabels[status]||status}</span>;export const AttendanceBadge=StatusBadge;
