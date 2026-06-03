@@ -1,26 +1,26 @@
-````markdown
 <div align="center">
 
-# 🚌 SafeRide Ledger  
+# 🚌 SafeRide Ledger
+
 ### 🛡️ School Van Safety & Attendance App
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0F172A&height=120&section=header&text=SafeRide%20Ledger&fontSize=38&fontColor=F59E0B&animation=fadeIn&fontAlignY=35" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0F172A&height=130&section=header&text=SafeRide%20Ledger&fontSize=40&fontColor=F59E0B&animation=fadeIn&fontAlignY=36" width="100%" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=2500&pause=700&color=F59E0B&center=true&vCenter=true&width=1000&lines=Know+Your+Child%27s+School+Van+Status;Pickup+%7C+Arrival+%7C+Departure+%7C+Drop-Off;Parent+%7C+Driver+%7C+Admin+Dashboards;QR+Demo+Check-In+%7C+Delay+Alerts+%7C+Safety+Timeline;Premium+Dark+Blue+%2B+Gold+MERN+App" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=2500&pause=700&color=F59E0B&center=true&vCenter=true&width=1000&lines=Know+Your+Child%27s+School+Van+Status;Pickup+%7C+Arrival+%7C+Departure+%7C+Drop-Off;Parent+%7C+Driver+%7C+Admin+Dashboards;QR+Demo+Check-In+%7C+Delay+Alerts+%7C+Safety+Timeline;Premium+Dark+Blue+%2B+Gold+MERN+Safety+App" alt="Typing SVG" />
 
 <br/>
 <br/>
 
-![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![JWT](https://img.shields.io/badge/Auth-JWT-F59E0B?style=for-the-badge&logo=jsonwebtokens&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT-F59E0B?style=for-the-badge\&logo=jsonwebtokens\&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38BDF8?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 ![Recharts](https://img.shields.io/badge/Recharts-Analytics-F59E0B?style=for-the-badge)
-![Safety](https://img.shields.io/badge/School%20Van-Safety-0F172A?style=for-the-badge)
 ![MERN](https://img.shields.io/badge/MERN-Full%20Stack-1E293B?style=for-the-badge)
+![Safety](https://img.shields.io/badge/School%20Transport-Safety-0F172A?style=for-the-badge)
 
 <br/>
 
@@ -51,27 +51,6 @@
 
 <img src="screenshots/parent-dashboard.png" alt="SafeRide Ledger Parent Dashboard" width="100%" />
 
-<br/>
-<br/>
-
-### 🚌 Driver Dashboard
-
-<img src="screenshots/driver-dashboard.png" alt="SafeRide Ledger Driver Dashboard" width="100%" />
-
-<br/>
-<br/>
-
-### 👑 Admin Dashboard
-
-<img src="screenshots/admin-dashboard.png" alt="SafeRide Ledger Admin Dashboard" width="100%" />
-
-<br/>
-<br/>
-
-### ✅ Attendance Workflow
-
-<img src="screenshots/attendance.png" alt="SafeRide Ledger Attendance Workflow" width="100%" />
-
 </div>
 
 ---
@@ -80,23 +59,24 @@
 
 **SafeRide Ledger** is a modern **MERN-based school van safety and attendance tracking system** built to solve a real-world communication problem between **parents, drivers, and schools**.
 
-Parents often do not know whether their child has safely boarded the school van, reached school, left school, or arrived home. SafeRide Ledger provides a clear digital workflow where drivers mark attendance events and parents can instantly view child transport status from a beautiful dashboard.
+Parents often do not know whether their child has safely boarded the school van, reached school, left school, or arrived home. SafeRide Ledger provides a clean digital workflow where drivers mark attendance events and parents instantly view their child’s school transport status from a beautiful safety dashboard.
 
-> 🛡️ **Safety Scope:**  
+> 🛡️ **Safety Scope:**
 > This app is for school transport coordination and attendance communication only. It does not replace human supervision, emergency services, school policy, or legal responsibility.
 
 ---
 
 ## 🎯 Real-World Problem & Solution
 
-| 🚨 Problem | ✅ SafeRide Ledger Solution |
-|---|---|
-| Parents do not know if the child boarded the van | Driver marks pickup status |
-| School arrival confirmation is unclear | Driver marks school arrival |
-| Drop-off communication can be delayed | Parent sees drop confirmation |
-| Route delays are shared manually | Driver creates delay notification |
-| Attendance records are hard to manage | Admin gets daily attendance reports |
-| Emergency contact info may be scattered | Driver/parent/admin dashboards show contact cards |
+| 🚨 Real Problem                                         | ✅ SafeRide Ledger Solution               |
+| ------------------------------------------------------- | ---------------------------------------- |
+| Parents do not know if the child boarded the school van | Driver marks pickup status               |
+| School arrival confirmation is unclear                  | Driver marks school arrival              |
+| Drop-off updates can be delayed                         | Parent sees drop-off confirmation        |
+| Route delays are shared manually                        | Driver creates delay notifications       |
+| Attendance history is hard to track                     | System stores daily attendance records   |
+| Emergency contact details may be scattered              | Role-based emergency contact cards       |
+| Schools need better safety visibility                   | Admin dashboard shows analytics and logs |
 
 ---
 
@@ -104,62 +84,62 @@ Parents often do not know whether their child has safely boarded the school van,
 
 ### 👨‍👩‍👧 Parent Features
 
-- 🛡️ Parent peace-of-mind dashboard
-- 🧒 View child safety status cards
-- ✅ Pickup confirmation
-- 🏫 School arrival status
-- 🚌 School departure status
-- 🏠 Drop-off confirmation
-- 🕒 Daily safety timeline
-- 🚨 Delay notifications
-- 📍 Route details
-- 📞 Driver and emergency contact details
-- 📋 Attendance history
+* 🛡️ Parent peace-of-mind dashboard
+* 🧒 View child safety status cards
+* ✅ Pickup confirmation
+* 🏫 School arrival status
+* 🚌 School departure status
+* 🏠 Drop-off confirmation
+* 🕒 Daily safety timeline
+* 🚨 Delay notifications
+* 📍 Route details
+* 📞 Driver and emergency contact details
+* 📋 Attendance history
 
 ---
 
 ### 🚌 Driver Features
 
-- 🚌 Driver route dashboard
-- ✅ Mark pickup attendance
-- 🏫 Mark school arrival
-- 🚦 Mark school departure
-- 🏠 Mark drop attendance
-- 🔑 QR demo check-in using student code
-- 🚨 Create delay reports
-- 📞 View emergency contacts
-- 📊 Route completion progress
-- 📝 Add pickup/drop notes
+* 🚌 Driver route dashboard
+* ✅ Mark pickup attendance
+* 🏫 Mark school arrival
+* 🚦 Mark school departure
+* 🏠 Mark drop attendance
+* 🔑 QR demo check-in using student code
+* 🚨 Create delay reports
+* 📞 View emergency contacts
+* 📊 Route completion progress
+* 📝 Add pickup/drop notes
 
 ---
 
 ### 👑 Admin Features
 
-- 📊 Admin safety dashboard
-- 👨‍👩‍👧 Manage parents
-- 🧑‍✈️ Manage drivers
-- 🧒 Manage students
-- 🚌 Manage school van routes
-- 📋 View daily attendance
-- 🚨 View delay reports
-- 🛡️ View safety logs
-- 📈 Safety score analytics
-- 📄 Export attendance reports
+* 📊 Admin safety dashboard
+* 👨‍👩‍👧 Manage parents
+* 🧑‍✈️ Manage drivers
+* 🧒 Manage students
+* 🚌 Manage school van routes
+* 📋 View daily attendance
+* 🚨 View delay reports
+* 🛡️ View safety logs
+* 📈 Safety score analytics
+* 📄 Export attendance reports
 
 ---
 
 ## 🧠 Special Next-Level Features
 
-| Feature | Description |
-|---|---|
-| 🛡️ Safety Timeline | Shows Home Pickup → In Van → Arrived School → Left School → Dropped Home |
-| 🔑 QR Demo Check-In | Driver can mark attendance using student code / QR demo token |
-| 🚨 Delay Notification Center | Driver creates delay reports and parents receive notifications |
-| 📊 Route Completion Progress | Shows picked, dropped, pending, and completion percentage |
-| 📞 Emergency Quick Card | Driver can quickly view student emergency contact |
-| 🧮 Safety Score | Admin gets pickup/drop completion and delay-based safety score |
-| 📄 CSV Reports | Daily attendance can be exported as CSV |
-| 👨‍👩‍👧 Peace-of-Mind Card | Parent sees “Your child is currently: At School / In Van / Dropped Home” |
+| Feature                      | Description                                                              |
+| ---------------------------- | ------------------------------------------------------------------------ |
+| 🛡️ Safety Timeline          | Shows Home Pickup → In Van → Arrived School → Left School → Dropped Home |
+| 🔑 QR Demo Check-In          | Driver can mark attendance using student code / QR demo token            |
+| 🚨 Delay Notification Center | Driver creates route delay reports and parents receive notifications     |
+| 📊 Route Completion Progress | Shows picked, dropped, pending, and completion percentage                |
+| 📞 Emergency Quick Card      | Driver can quickly view student emergency contact                        |
+| 🧮 Safety Score              | Admin gets pickup/drop completion and delay-based safety score           |
+| 📄 CSV Reports               | Daily attendance can be exported as CSV                                  |
+| 👨‍👩‍👧 Peace-of-Mind Card  | Parent sees “Your child is currently: At School / In Van / Dropped Home” |
 
 ---
 
@@ -186,7 +166,7 @@ Driver marks School Departure
 Marks student as Dropped / Missed
         ↓
 Parent sees drop-off confirmation
-````
+```
 
 ---
 
@@ -549,10 +529,7 @@ saferide-ledger-school-van-safety-app/
 │
 ├── screenshots/
 │   ├── landing.png
-│   ├── parent-dashboard.png
-│   ├── driver-dashboard.png
-│   ├── admin-dashboard.png
-│   └── attendance.png
+│   └── parent-dashboard.png
 │
 ├── docker-compose.yml
 ├── README.md
@@ -695,6 +672,17 @@ Password: Driver12345
 * ☁️ Cloud deployment
 * ⚡ Real-time Socket.io notifications
 
+---
+
+## 🎤 Interview Explanation
+
+> SafeRide Ledger is a MERN-based school transport safety and attendance tracking system. It provides role-based dashboards for parents, drivers, and admins. Drivers can mark pickup, school arrival, departure, and drop-off attendance, while parents can view their child’s real-time safety status, route details, delay notifications, and attendance history. The system includes QR demo check-ins, safety timelines, emergency contacts, CSV reports, admin analytics, JWT authentication, role-based access control, and strong validation.
+
+---
+
+## 📌 Professional CV Bullet
+
+> Developed SafeRide Ledger, a MERN-based school van safety and attendance app with parent, driver, and admin dashboards, pickup/drop attendance tracking, route management, delay notifications, emergency contacts, QR demo check-ins, safety timelines, analytics, and CSV reports.
 
 ---
 
@@ -724,4 +712,4 @@ Full Stack Developer | MERN Stack Developer | AI Engineer
 <img src="https://capsule-render.vercel.app/api?type=waving&color=F59E0B&height=120&section=footer" width="100%" />
 
 </div>
-```
+
