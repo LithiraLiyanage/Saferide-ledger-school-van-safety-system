@@ -1,6 +1,6 @@
 <div align="center">
 
-### 🛡️ School Van Safety & Attendance App
+### 🛡️ School Van Safety & Attendance
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0F172A&height=130&section=header&text=SafeRide%20Ledger&fontSize=40&fontColor=F59E0B&animation=fadeIn&fontAlignY=36" width="100%" />
 
