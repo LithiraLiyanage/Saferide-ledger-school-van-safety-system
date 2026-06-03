@@ -672,18 +672,6 @@ Password: Driver12345
 
 ---
 
-## 🎤 Interview Explanation
-
-> SafeRide Ledger is a MERN-based school transport safety and attendance tracking system. It provides role-based dashboards for parents, drivers, and admins. Drivers can mark pickup, school arrival, departure, and drop-off attendance, while parents can view their child’s real-time safety status, route details, delay notifications, and attendance history. The system includes QR demo check-ins, safety timelines, emergency contacts, CSV reports, admin analytics, JWT authentication, role-based access control, and strong validation.
-
----
-
-## 📌 Professional CV Bullet
-
-> Developed SafeRide Ledger, a MERN-based school van safety and attendance app with parent, driver, and admin dashboards, pickup/drop attendance tracking, route management, delay notifications, emergency contacts, QR demo check-ins, safety timelines, analytics, and CSV reports.
-
----
-
 ## 👨‍💻 Author
 
 <div align="center">
