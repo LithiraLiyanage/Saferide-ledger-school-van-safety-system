@@ -1,0 +1,2 @@
+import express from 'express'; import {createDelay,getDelays,resolveDelay} from '../controllers/delayController.js'; import {protect,roleOnly} from '../middleware/authMiddleware.js'; import {validate} from '../middleware/validate.js'; import {delayRules} from '../validators/domainValidators.js';
+const r=express.Router(); r.route('/').post(protect,roleOnly('driver','admin'),delayRules,validate,createDelay).get(protect,getDelays); r.put('/:id/resolve',protect,roleOnly('admin'),resolveDelay); export default r;

@@ -1,0 +1,2 @@
+import express from 'express'; import {register,login,me,updateProfile,changePassword} from '../controllers/authController.js'; import {protect} from '../middleware/authMiddleware.js'; import {validate} from '../middleware/validate.js'; import {registerRules,loginRules} from '../validators/authValidators.js';
+const r=express.Router(); r.post('/register',registerRules,validate,register); r.post('/login',loginRules,validate,login); r.get('/me',protect,me); r.put('/profile',protect,updateProfile); r.put('/change-password',protect,changePassword); export default r;
