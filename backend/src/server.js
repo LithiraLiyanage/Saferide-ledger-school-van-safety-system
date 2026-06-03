@@ -1,0 +1,1 @@
+import dotenv from 'dotenv'; import app from './app.js'; import {connectDB} from './config/db.js'; import {seedData} from './services/seedService.js'; dotenv.config(); const PORT=process.env.PORT||5000; connectDB().then(seedData).then(()=>app.listen(PORT,()=>console.log(`SafeRide Ledger API running on ${PORT}`))).catch(e=>{console.error(e.message); process.exit(1);});
