@@ -1,0 +1,3 @@
+import { body } from 'express-validator';
+export const registerRules=[body('name').trim().isLength({min:2}).withMessage('Name must be at least 2 characters'),body('email').isEmail().withMessage('Valid email is required'),body('password').isLength({min:8}).withMessage('Password min 8 chars').matches(/[A-Z]/).withMessage('Password needs uppercase').matches(/[a-z]/).withMessage('Password needs lowercase').matches(/[0-9]/).withMessage('Password needs number')];
+export const loginRules=[body('email').isEmail().withMessage('Valid email is required'),body('password').notEmpty().withMessage('Password is required')];
